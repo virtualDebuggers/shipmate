@@ -4,7 +4,8 @@
 # In[91]:
 
 
-# Importing the libraries 
+# Importing the libraries
+import streamlit as st
 import pandas as pd # Used to manipulate the dataframe
 import numpy as np # Used for scientific calculations
 import matplotlib.pyplot as plt # Used for data visualisation
@@ -31,7 +32,8 @@ sns.set(rc={"figure.figsize": (20, 15)})
 sns.set_style("whitegrid")
 from sklearn import linear_model
 
-
+st.title("ShipMate")
+st.markdown("Reaching places.")
 # In[92]:
 
 
