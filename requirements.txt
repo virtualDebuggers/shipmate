@@ -1,6 +1,6 @@
 pandas
 numpy
-matplotlib
+matplotlib==0.24.2
 seaborn
 missingno
 warnings
