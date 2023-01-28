@@ -323,11 +323,9 @@ print('Training score for Random Forest Regressor is',RF.score(x_train,y_train))
 
 
 # In[ ]:
-import joblib
-joblib.dump(clf, 'rf_model.sav')
-def predict(data):
-    clf = joblib.load("rf_model.sav")
-    return clf.predict(data)
-from prediction import predict
-
+# pickling the model
+import pickle
+pickle_out = open("classifier.pkl", "wb")
+pickle.dump(classifier, pickle_out)
+pickle_out.close()
 
