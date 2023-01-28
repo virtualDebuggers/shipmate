@@ -13,7 +13,7 @@ import seaborn as sns # Used for data visualisation
 import missingno as msno # Used for visualizing missing values 
 import warnings # Used to remove warnings
 warnings.filterwarnings("ignore")
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 from sklearn.model_selection import train_test_split,cross_validate, GridSearchCV
 from sklearn.preprocessing import StandardScaler,OrdinalEncoder
