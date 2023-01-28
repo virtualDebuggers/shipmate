@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Warehouse Listing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/warehouse.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/shipmate-favicon.ico">
+
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="dropdown">
+            <button>List of Countries</button>
+            <div class="dropdown-content">
+                <a id="countries"></a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="profile-icon">
+            <img src="images/profile-icon.png" alt="Profile Icon">
+            <p id="username"></p>
+        </div>
+        <!-- Add content to the main area -->
+        <button type="button" class="large-button">Warehouse 1</button>
+        <div id="details">
+            <button type="button" class="large-button" id="plus" onclick="details.html">+</button>
+        </div>
+    </div>
+
+
+    <script src="js/warehouse.js"></script>
+</body>
+
+</html>
