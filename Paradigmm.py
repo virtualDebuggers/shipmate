@@ -324,7 +324,7 @@ print('Training score for Random Forest Regressor is',RF.score(x_train,y_train))
 
 # In[ ]:
 import joblib
-joblib.dump(clf, “rf_model.sav”)
+joblib.dump(clf, 'rf_model.sav')
 def predict(data):
     clf = joblib.load("rf_model.sav")
     return clf.predict(data)
